@@ -1,1 +1,1 @@
-This repository contains miscellaneous coding projects I have completed over my 3 years of programming at university.
+This repository contains miscellaneous coding projects I have completed over 2 years of programming at university.
