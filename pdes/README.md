@@ -17,7 +17,7 @@ is $$\mu(\vec x, t) = -a\phi(\vec x, t)+a\phi(\vec x, t)^3 -\kappa\nabla^2\phi(\
 where $a,\kappa$ are positive constants.
 
 The free energy density $f$ associated with the order parameter is given by
-$$ f=-\frac a2\phi^2 +\frac a4\phi^4 +\frac\kappa 2(\nabla\phi)^2
+$$ f=-\frac a2\phi^2 +\frac a4\phi^4 +\frac\kappa 2(\nabla\phi)^2.$$
 Over time, we expect the system to evolve in a way that minimises the free energy density.
 
 The Cahn-Hilliard calculation should be run by typing 'python3 cahn-hilliard.py'
