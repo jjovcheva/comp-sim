@@ -15,9 +15,9 @@ The SIRS model is a stochastic model consisting of agents
 arranged on a 2d lattice. 
 
 These agents can be in 1 of the 3 following states:
-- S: susceptible to infection
-- I: infected
-- R: recovered from infection (and therefore immune)
+- $S$: susceptible to infection
+- $I$: infected
+- $R$: recovered from infection (and therefore immune)
 
 Agents pass through the available states cyclically: $S \rightarrow I$ when a 
 susceptible agent comes into contact with an infected one, $I \rightarrow R$
@@ -28,6 +28,6 @@ the immune response will wear off and $R \rightarrow S$.
 Only one site is updated in each timestep, and the updating site is chosen
 at random. The SIRS model obeys the following rules:
 - $S \rightarrow I$ with probability $p_1$ if minimum 1 neighbour of the 
-updating site is I; otherwise, it is unchanged.
+updating site is $I$; otherwise, it is unchanged.
 - $I \rightarrow R$ with probability $p_2$.
 - $R \rightarrow S$ with probability $p_3$.
