@@ -19,15 +19,15 @@ These agents can be in 1 of the 3 following states:
 - I: infected
 - R: recovered from infection (and therefore immune)
 
-Agents pass through the available states cyclically: S --> I when a 
-susceptible agent comes into contact with an infected one, I --> R
+Agents pass through the available states cyclically: $S \rightarrow I$ when a 
+susceptible agent comes into contact with an infected one, $I \rightarrow R$
 through recovery, and, in the absence of contact with an infected agent,
-the immune response will wear off and R --> S.
+the immune response will wear off and $R \rightarrow S$.
 
 `sirs.py` simulates this model through a random sequential updating scheme.
 Only one site is updated in each timestep, and the updating site is chosen
 at random. The SIRS model obeys the following rules:
-- S --> I with probability $p_1$ if minimum 1 neighbour of the 
+- $S \rightarrow I$ with probability $p_1$ if minimum 1 neighbour of the 
 updating site is I; otherwise, it is unchanged.
-- I --> R with probability $p_2$.
-- R --> S with probability $p_3$.
+- $I \rightarrow R$ with probability $p_2$.
+- $R \rightarrow S$ with probability $p_3$.
