@@ -21,7 +21,7 @@ The free energy density $f$ associated with the order parameter is given by
 $$f=-\frac{a}{2}\phi^2 +\frac{a}{4}\phi^4 +\frac{\kappa}{2}(\nabla\phi)^2.$$
 Over time, we expect the system to evolve in a way that minimises the free energy density.
 
-The Cahn-Hilliard calculation should be run by typing `python3 cahn-hilliard.py`
+The Cahn-Hilliard calculation should be run by typing `python3 cahn-hilliard.py`.
 The only input is the initial value of $\phi$ (included here are plots for $\phi_0=0$ and $\phi_0=0.5$). The animation is updated every 1000 steps, for a total of 100,000 steps.
 
 ## Poisson equation ##
