@@ -1,4 +1,4 @@
-## Simulation of Argon atoms interacting via the Lennard-Jones potential
+## Simulation of Argon atoms interacting via the Lennard-Jones potential ##
 
 The script `lj.py' takes one input file and produces 4 output files.
 All values are in reduced units.
