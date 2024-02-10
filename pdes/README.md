@@ -11,7 +11,7 @@ water than oil, and negative otherwise. The overall integral of $\phi$ must
 be conserved as the amount of each substance remains constant.
 
 The order parameter obeys the Cahn-Hilliard equation
-$\frac{\partial \phi(\vec{x}, t)}{\partial t} = M\nabla^2\mu(\vec{x}, t)$
+$$\frac{\partial \phi(\vec{x}, t)}{\partial t} = M\nabla^2\mu(\vec{x}, t),$$
 
 where $M$ is a positive constant and the chemical potential $\mu(\vec x, t)$
 is $$\mu(\vec x, t) = -a\phi(\vec x, t)+a\phi(\vec x, t)^3 -\kappa\nabla^2\phi(\vec x, t),$$
